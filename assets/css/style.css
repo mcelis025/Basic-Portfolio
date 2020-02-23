@@ -3,27 +3,27 @@ head {
 }
 
 body {
-    margin: 0px;
+    margin: auto;
     display: flex;
     flex-direction: column;
 }
 
 #myname {
     background-color:  #4aaaa5;
-    color: #dddddd;
+    color: #ffffff;
     font-family: Georgia, 'Times New Roman', Times, serif;
     float: left; 
     width: 33.33%;
-    height: 80px;
+    height: 50px;
     text-align: center;
-    margin: 20px 0px 0px 150px;
-    padding-top: 40px;
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 #sectionname{
     color:  #4aaaa5;
     font-family: Georgia, 'Times New Roman', Times, serif;
-
 }
 
 .topmenu {
@@ -39,10 +39,14 @@ body {
     margin: auto;
 }
 
+.background {
+    background-image: url("../images/white-waves.png");
+}
+
 .pages {
     float: right;
     width: 33.33%;
-    margin: 100px 100px 0px 0px;
+    margin: 0px 0px 0px 0px;
 }
 
 hr {
@@ -55,7 +59,6 @@ hr {
     float: left;
     margin-right: 20px;
     margin-bottom: 20px;
-
 }
 
 .list {
@@ -70,6 +73,7 @@ hr {
     width: 960px;
     padding: 30px;
     font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 200px;
 }
 
 .clearfix::after {
