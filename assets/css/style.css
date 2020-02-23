@@ -1,5 +1,6 @@
 body {
-    margin: auto;
+    height: 100%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     margin: 0px;
@@ -54,10 +55,10 @@ a:link {
     color: #777777;
   }
 
-
 .content {
     flex: 1 0 auto;
     background-image: url("../images/white-waves.png");
+    width: 100%;
 }
 
 .pages {
@@ -65,7 +66,6 @@ a:link {
     width: 33.33%;
     margin: 33px 0px 0px 0px;
 }
-
 
 #profilepic {
     height: 260px;
@@ -82,6 +82,7 @@ a:link {
 .maintext {
     color: #777777;
     border: #dddddd 1px solid;
+    background-color: #ffff;
     float: left;
     text-align: left;
     width: 960px;
@@ -100,10 +101,11 @@ footer {
     width:100%;
     flex-shrink: 0;
     margin-top: auto;
-    padding-top: 20px;
-    padding-bottom: 10px;
+    padding-top: 27px;
+    padding-bottom: 15px;
     height: 30px;
-    color: white;
+    color: #ffff;
+    font-size: 10px;
     background: #666666;
     text-align: center;
     border-top: 8px solid #4aaaa5;
