@@ -18,12 +18,19 @@ body {
 
 }
 
+.mainheader {
+    background-color: #ffffff;
+    border-bottom: #cccccc 8px solid;
+}
+
 .content {
     flex: 1 0 auto
 }
-.abouttext {
+.maintext {
     color: #777777;
+    border: #dddddd 2px solid;
     float: left;
+    margin: 50px;
 }
 
 #profilepic {
@@ -35,11 +42,12 @@ body {
 footer {
     width:100%;
     flex-shrink: 0;
+    margin-top: auto;
     padding-top: 20px;
     padding-bottom: 10px;
     height: 30px;
     color: #777777;
     background: #666666;
     text-align: center;
-    border-top: 8px #4aaaa5;
+    border-top: 8px solid #4aaaa5;
 }
