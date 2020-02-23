@@ -13,17 +13,24 @@ body {
 #myname {
     background-color:  #4aaaa5;
     color: #dddddd;
-
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    float: left; 
+    width: 20%;
+    height: 80px;
+    text-align: center;
+    margin-left: 150px;
+    padding-top: 40px;
 }
 
 #sectionname{
     color:  #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 
 }
 
-.mainheader {
+.topmenu {
     background-color: #ffffff;
-    border-bottom: #cccccc 8px solid;
+    border-bottom: #cccccc 2px solid;
 }
 
 .content {
