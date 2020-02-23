@@ -8,13 +8,16 @@ body {
     flex-direction: column;
 }
 
-.clearfix::after {
-    content: "";
-    clear: both;
-    display: block;
+
+
+#myname {
+    background-color:  #4aaaa5;
+    color: #dddddd;
+
 }
 
-.myname {
+#sectionname{
+    color:  #4aaaa5;
 
 }
 
@@ -26,17 +29,25 @@ body {
 .content {
     flex: 1 0 auto
 }
-.maintext {
-    color: #777777;
-    border: #dddddd 2px solid;
-    float: left;
-    margin: 50px;
-}
 
 #profilepic {
     height: 260px;
     width: 200px;
     float: left;
+}
+
+.maintext {
+    color: #777777;
+    border: #dddddd 1px solid;
+    float: left;
+    margin: 50px;
+    padding: 20px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: block;
 }
 
 footer {
