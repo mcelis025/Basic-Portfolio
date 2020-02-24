@@ -3,7 +3,7 @@ body {
     width: 100%;
     display: flex;
     flex-direction: column;
-    margin: 0px;
+    margin: 0px; 
 }
 
 #myname {
@@ -12,9 +12,9 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     float: left; 
     width: 20%;
-    height: 50px;
+    height: 40px;
     text-align: center;
-    margin: 0px 0px 0px 450px;
+    margin: 0px 0px 0px 23.5%;
     padding-top: 20px;
     padding-bottom: 15px;
 }
@@ -22,16 +22,17 @@ body {
 #sectionname{
     color:  #4aaaa5;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    border-bottom: solid 5px #dddddd;
+    border-bottom: solid 2px #dddddd;
     margin-bottom: 10px;
     padding-bottom: 20px;
+    margin-top: 0px;
 }
 
 #topmenu {
     background-color: #ffffff;
     border-bottom: #cccccc 2px solid;
     font-family: Arial, Helvetica, sans-serif;
-    margin-bottom: 50px;
+    margin: auto;
     width: 100%;
 }
 
@@ -63,32 +64,40 @@ a:link {
 
 .pages {
     float: right;
-    width: 33.33%;
-    margin: 33px 0px 0px 0px;
+    margin-top: 33px;
+    margin-right: 24%;
 }
 
 #profilepic {
     height: 260px;
     width: 200px;
     float: left;
-    margin-right: 20px;
-    margin-bottom: 20px;
+    margin: 20px 5% 20px 0px;
 }
 
 .list {
     margin-left: 25%;
+    padding-left: 10%;
+    width: auto;
 }
 
 .maintext {
+    position: relative;
     color: #777777;
     border: #dddddd 1px solid;
     background-color: #ffff;
     float: left;
     text-align: left;
-    width: 960px;
+    width: auto;
+    max-width: 960px;
     padding: 30px;
     font-family: Arial, Helvetica, sans-serif;
-    margin: 0px 300px 200px 450px;
+    margin: 3% 23.5% 10.5% 23.5%;
+}
+
+p {
+    margin: 30px;
+    padding: 0px;
 }
 
 .clearfix::after {
@@ -97,12 +106,18 @@ a:link {
     display: block;
 }
 
+#copyright {
+    margin: 0px;
+    padding-top: 20px;
+}
+
 footer {
     width:100%;
     flex-shrink: 0;
     margin-top: auto;
+
     padding-top: 27px;
-    padding-bottom: 15px;
+    padding-bottom: 20px;
     height: 30px;
     color: #ffff;
     font-size: 10px;
