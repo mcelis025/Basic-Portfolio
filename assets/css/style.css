@@ -6,6 +6,8 @@ body {
     margin: 0px; 
 }
 
+/**Page Layout CSS // About Me**/
+
 #myname {
     background-color:  #4aaaa5;
     color: #ffffff;
@@ -95,9 +97,10 @@ a:link {
     margin: 3% 23.5% 10.5% 23.5%;
 }
 
-p {
+#firstpara {
     margin: 30px;
     padding: 0px;
+    text-align: left;
 }
 
 .clearfix::after {
@@ -124,3 +127,7 @@ footer {
     text-align: center;
     border-top: 8px solid #4aaaa5;
 }
+
+/**Contact CSS**/
+
+/**Portfolio CSS**/
