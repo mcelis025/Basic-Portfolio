@@ -140,16 +140,20 @@ footer {
 #fname {
     width: 98%;
     padding: 5px;
+    margin: 7px 0px 7px 0px;
 }
 
 #email {
     width: 98%;
     padding: 5px;
+    margin: 7px 0px 7px 0px;
 }
 
 #message {
     width: 99%;
     height: 125px;
+    margin: 7px 0px 7px 0px;
+    border: #dddddd solid 1px;
 }
 
 #button {
