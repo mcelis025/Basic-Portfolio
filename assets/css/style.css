@@ -24,14 +24,17 @@ body {
 #sectionname {
     color:  #4aaaa5;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    margin: 0px 0px 0px 0px;
+    margin: 0px;
     padding-bottom: 20px;
     float: left;
 }
 
 #under {
     width: 100%;
+    min-width: 100%;
     border-bottom: solid 2px #dddddd;
+    color: #ffff;
+    float: right;
   }
 
 #topmenu {
@@ -47,17 +50,17 @@ a:link {
     color: #777777;
   }
   
-  a:visited {
+a:visited {
     text-decoration: none;
     color: #777777;
   }
   
-  a:hover {
+a:hover {
     text-decoration: underline;
     color: #777777;
   }
   
-  a:active {
+a:active {
     text-decoration: underline;
     color: #777777;
   }
@@ -135,9 +138,30 @@ footer {
 /**Contact CSS**/
 
 #fname {
-    width: 100%
+    width: 98%;
+    padding: 5px;
 }
 
+#email {
+    width: 98%;
+    padding: 5px;
+}
+
+#message {
+    width: 99%;
+    height: 125px;
+}
+
+#button {
+    background-color: #4aaaa5;
+    border: none;
+    color: #ffff;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer; 
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 /**Portfolio CSS**/
 
