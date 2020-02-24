@@ -168,4 +168,43 @@ footer {
 }
 
 /**Portfolio CSS**/
+#spongebob {
+    height: 200px;
+    width: 200px;
+    float: left;
+    margin: 25px 5% 20px 0px;
+}
 
+#patrick {
+    height: 200px;
+    width: 200px;
+    float: left;
+    margin: 25px 5% 20px 0px;
+}
+
+#squidward {
+    height: 200px;
+    width: 200px;
+    float: left;
+    margin: 25px 5% 20px 0px;
+}
+
+#krabs {
+    height: 200px;
+    width: 200x;
+    float: left;
+    margin: 25px 5% 20px 0px;
+}
+
+#plankton {
+    height: 200px;
+    width: 200px;
+    float: left;
+    margin: 25px 5% 20px 20px;
+}
+
+.center1 h2 {
+    color: #ffffff;
+    background-color: #4aaaa5;
+    background: url("assets/images/spongebob.png");
+  }
