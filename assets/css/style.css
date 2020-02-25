@@ -170,23 +170,25 @@ footer {
 
 /**Portfolio CSS**/
 
-.textover {
-    width: 200px;
-    margin-top: -50%;
+.maintextport {
     position: relative;
-  }
-
-#box {
-    height: auto;
-    width: 100%;
-    margin: 5% 10% 5% 0%;
+    color: #777777;
+    border: #dddddd 1px solid;
+    background-color: #ffff;
+    width: 49%;
+    max-width: 960px;
+    padding: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 3% 23.5% 10.5% 23.5%;
 }
 
-#box img {
-    width: 150px;
-    height: 150px;
-    padding: 10px;
-    margin: 10px;
+.textover {
+    height: auto;
+    width: 35%;
+    margin-top: -15%;
+    margin-bottom: 50px;
+    padding-top: 5px;
+    position: relative;
 }
 
 .textover p {
@@ -198,25 +200,15 @@ footer {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.space {
-    white-space: nowrap;
-    color: #ffff;
+#box {
+    height: auto;
+    width: 100%;
+    margin: 5% 5% 5% 0%;
 }
 
-.maintextport {
-    position: relative;
-    color: #777777;
-    border: #dddddd 1px solid;
-    background-color: #ffff;
-    text-align: left;
-    width: 49%;
-    max-width: 960px;
-    padding: 30px;
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 3% 23.5% 10.5% 23.5%;
+#box img {
+    width: 30%;
+    height: 30%;
+    padding: 10px;
+    margin: 10px 5px 5px 5px;
 }
-/** {
-    padding: 0;
-    margin: 0;
-}
-*/
