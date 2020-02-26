@@ -20,6 +20,7 @@ body {
     margin: 0px 0px 0px 23.5%;
     padding-top: 20px;
     padding-bottom: 15px;
+    font-size: 40px;
 }
 
 #sectionname {
@@ -28,6 +29,7 @@ body {
     margin: 0px;
     padding-bottom: 20px;
     float: left;
+    font-size: 35px;
 }
 
 #under {
