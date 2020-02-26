@@ -229,3 +229,11 @@ footer {
     width: 33.33%;
     padding: 5px;
   }
+  #portname {
+    color:  #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 14.5px;
+    padding-bottom: 26.5px;
+    float: left;
+    font-size: 35px;
+}
