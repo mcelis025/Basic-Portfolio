@@ -80,7 +80,7 @@ a:active {
 .pages {
     float: right;
     margin-top: 33px;
-    margin-right: 24%;
+    margin-right: 25%;
 }
 
 #profilepic {
@@ -183,7 +183,7 @@ footer {
     color: #777777;
     border: #dddddd 1px solid;
     background-color: #ffff;
-    width: 100%;
+    width: 48.725%;
     max-width: 929px;
     padding: 30px;
     font-family: Arial, Helvetica, sans-serif;
